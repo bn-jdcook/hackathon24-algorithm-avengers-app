@@ -74,12 +74,12 @@ const Layout = () => {
                 >
                     <Stack horizontal verticalAlign="center">
                         <img
-                            src={Azure}
+                            src="https://www.barracuda.com/content/dam/barracuda-corp/images/site/header/logo_barracuda_primary_strapline_reversed.svg"
                             className={styles.headerIcon}
                             aria-hidden="true"
                         />
                         <Link to="/" className={styles.headerTitleContainer}>
-                            <h1 className={styles.headerTitle}>Azure AI</h1>
+                            <h1 className={styles.headerTitle}>Alogrithm Avengers using Azure AI</h1>
                         </Link>
                     </Stack>
                     <Stack horizontal tokens={{ childrenGap: 4 }}>
