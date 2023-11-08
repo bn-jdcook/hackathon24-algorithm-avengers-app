@@ -571,7 +571,7 @@ const Chat = () => {
                         {!messages || messages.length < 1 ? (
                             <Stack className={styles.chatEmptyState}>
                                 <img
-                                    src="https://www.barracuda.com/content/dam/barracuda-corp/images/site/header/logo_barracuda_primary_strapline_reversed.svg"
+                                    src="https://www.barracuda.com/content/dam/barracuda-corp/images/site/header/icon_barracuda.svg"
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />

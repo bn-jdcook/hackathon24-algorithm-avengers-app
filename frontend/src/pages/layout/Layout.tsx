@@ -74,7 +74,7 @@ const Layout = () => {
                 >
                     <Stack horizontal verticalAlign="center">
                         <img
-                            src="https://www.barracuda.com/content/dam/barracuda-corp/images/site/header/logo_barracuda_primary_strapline_reversed.svg"
+                            src="https://www.barracuda.com/content/dam/barracuda-corp/images/site/header/icon_barracuda.svg"
                             className={styles.headerIcon}
                             aria-hidden="true"
                         />
