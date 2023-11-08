@@ -571,12 +571,13 @@ const Chat = () => {
                         {!messages || messages.length < 1 ? (
                             <Stack className={styles.chatEmptyState}>
                                 <img
-                                    src={Azure}
+                                    src="https://www.barracuda.com/content/dam/barracuda-corp/images/site/header/logo_barracuda_primary_strapline_reversed.svg"
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
                                 <h1 className={styles.chatEmptyStateTitle}>Start chatting</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>This chatbot is configured to answer your questions</h2>
+                                <h2 className={styles.chatEmptyStateSubtitle}>What's OCSF?</h2>
+                                <h2 className={styles.chatEmptyStateSubtitle}>The OCSF project was conceived and initiated by AWS and Splunk, building upon the ICD Schema work done at Symantec, a division of Broadcom. The OCSF includes contributions from 15 additional initial members, including Cloudflare, CrowdStrike, DTEX, IBM Security, IronNet, JupiterOne, Okta, Palo Alto Networks, Rapid7, Salesforce, Securonix, Sumo Logic, Tanium, Trend Micro, and Zscaler.</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}} role="log">
