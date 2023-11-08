@@ -575,7 +575,7 @@ const Chat = () => {
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
-                                <h1 className={styles.chatEmptyStateTitle}>Start chatting</h1>
+                                <h1 className={styles.chatEmptyStateTitle}>Start chatting with OneBarracuda AI</h1>
                                 <h2 className={styles.chatEmptyStateSubtitle}>What's OCSF?</h2>
                                 <h2 className={styles.chatEmptyStateSubtitle}>The OCSF project was conceived and initiated by AWS and Splunk, building upon the ICD Schema work done at Symantec, a division of Broadcom. The OCSF includes contributions from 15 additional initial members, including Cloudflare, CrowdStrike, DTEX, IBM Security, IronNet, JupiterOne, Okta, Palo Alto Networks, Rapid7, Salesforce, Securonix, Sumo Logic, Tanium, Trend Micro, and Zscaler.</h2>
                             </Stack>
