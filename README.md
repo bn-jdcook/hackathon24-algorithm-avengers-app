@@ -1,4 +1,8 @@
-# [Preview] Sample Chat App with AOAI - hackathon24
+# Hackathon-24 Algorithm Avengers
+This is a project for the Barracuda Hackathon 2024.  Changes were UI and a few small application fixes.
+
+Forked from: [microsoft/sample-app-aoai-chatGPT](https://github.com/microsoft/sample-app-aoai-chatGPT) 
+# [Preview] Sample Chat App with AOAI
 
 This repo contains sample code for a simple chat webapp that integrates with Azure OpenAI. Note: some portions of the app use preview APIs.
 
